@@ -1,0 +1,11 @@
+{
+  "verbose": false,
+  "watch": ["config/server", "src/server"],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "execMap": {
+    "js": "node --inspect"
+  },
+  "ext": "js,json"
+}

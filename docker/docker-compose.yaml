@@ -1,0 +1,48 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo:4.4-focal
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      - TZ=Australia/Melbourne
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+      - MONGO_INITDB_PASSWORD=${MONGO_INITDB_PASSWORD}
+      - MONGO_INITDB_USERNAME=${MONGO_INITDB_USERNAME}
+    volumes:
+      - ./init-mongo.sh:/docker-entrypoint-initdb.d/init-mongo.sh:ro
+      - ${MONGO_VOLUME}:/data/db
+    container_name: ${MONGO_NAME}
+    logging:
+      options:
+        max-size: 200m
+
+  api:
+    image: osg-backend:latest
+    restart: always
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongodb
+    environment:
+      - TZ=Australia/Melbourne
+      - DB_HOST=${MONGO_HOST}
+      - DB_NAME=${MONGO_INITDB_DATABASE}
+      - DB_PASSWORD=${MONGO_INITDB_PASSWORD}
+      - DB_PORT=${MONGO_PORT}
+      - DB_USERNAME=${MONGO_INITDB_USERNAME}
+      - BASE_URL=${BASE_URL}
+      - ADMIN_EMAIL=${ADMIN_EMAIL}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - JWT_SECRET=${JWT_SECRET}
+      - SERVER_PORT=${SERVER_PORT}
+      - CAPS_USERNAME=${CAPS_USERNAME}
+      - CAPS_PASSWORD=${CAPS_PASSWORD}
+    container_name: ${API_NAME}
+    logging:
+      options:
+        max-size: 200m
+

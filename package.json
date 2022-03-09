@@ -1,0 +1,75 @@
+{
+  "name": "smishing-check",
+  "version": "0.1.0",
+  "description": "SmishingCheck",
+  "private": true,
+  "scripts": {
+    "ui:dev": "react-scripts start",
+    "ui:build": "react-scripts build",
+    "api:dev": "nodemon src/server/index.js",
+    "api:start": "NODE_ENV=production node src/server/index.js",
+    "dev": "yarn ui:dev & yarn api:dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "4.7.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.18.5",
+    "axios": "^0.25.0",
+    "bcrypt": "^5.0.1",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "helmet": "^4.6.0",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "migrate-mongo": "^8.2.3",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.8",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "prettyjson": "^1.2.5",
+    "prop-types": "^15.7.2",
+    "querystring": "^0.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^5.0.0",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.4",
+    "winston": "^3.5.1"
+  },
+  "engines": {
+    "node": ">=14.18.1",
+    "yarn": "^1.19.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@server": "./src/server"
+  },
+  "proxy": "http://localhost:443"
+}

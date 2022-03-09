@@ -1,0 +1,69 @@
+yarn run v1.22.17
+warning ../../../package.json: No license field
+$ NODE_ENV=production node src/server/index.js
+2022-03-08T08:49:10.509Z [[34mINFO[39m]: Running migration...
+2022-03-08T08:49:10.569Z [[34mINFO[39m]: No migrations to run
+2022-03-08T08:49:10.592Z [[34mINFO[39m]: 🚀  Application started, on port 443
+2022-03-08T08:49:12.527Z [[34mINFO[39m]: Tue, 08 Mar 2022 08:49:12 GMT - GET /api/submissions?limit=30 304 21.757 ms -
+2022-03-08T08:49:14.158Z [[34mINFO[39m]: Tue, 08 Mar 2022 08:49:14 GMT - GET /api/submissions?limit=30 304 8.106 ms -
+2022-03-08T08:49:15.196Z [[34mINFO[39m]: Tue, 08 Mar 2022 08:49:15 GMT - GET /api/submissions?limit=30 304 6.986 ms -
+2022-03-08T08:49:16.880Z [[34mINFO[39m]: Tue, 08 Mar 2022 08:49:16 GMT - GET /api/submissions?limit=30 304 8.481 ms -
+2022-03-08T08:52:39.143Z [[34mINFO[39m]: Tue, 08 Mar 2022 08:52:39 GMT - GET /api/submissions?limit=30 304 8.268 ms -
+2022-03-08T08:56:28.453Z [[34mINFO[39m]: Tue, 08 Mar 2022 08:56:28 GMT - GET /api/submissions?limit=30 304 8.375 ms -
+2022-03-08T08:56:44.529Z [[34mINFO[39m]: Tue, 08 Mar 2022 08:56:44 GMT - GET /api/submissions?limit=30 304 16.926 ms -
+2022-03-08T09:01:23.516Z [[34mINFO[39m]: Tue, 08 Mar 2022 09:01:23 GMT - GET /api/submissions?limit=30 304 8.358 ms -
+2022-03-08T09:03:48.277Z [[34mINFO[39m]: Tue, 08 Mar 2022 09:03:48 GMT - GET /api/submissions?limit=30 304 10.409 ms -
+2022-03-08T09:06:18.946Z [[34mINFO[39m]: Tue, 08 Mar 2022 09:06:18 GMT - GET /api/submissions?limit=30 200 10.524 ms -
+2022-03-08T09:06:26.018Z [[34mINFO[39m]: Tue, 08 Mar 2022 09:06:26 GMT - GET /api/submissions?limit=30 200 6.421 ms -
+2022-03-08T09:10:15.789Z [[34mINFO[39m]: Tue, 08 Mar 2022 09:10:15 GMT - GET /api/submissions?limit=30 200 23.597 ms -
+2022-03-08T09:29:44.940Z [[34mINFO[39m]: Tue, 08 Mar 2022 09:29:44 GMT - GET //sitemap.xml 404 3.068 ms -
+2022-03-08T09:29:44.941Z [[34mINFO[39m]: Tue, 08 Mar 2022 09:29:44 GMT - GET //.well-known/security.txt 404 3.115 ms -
+2022-03-08T10:05:54.195Z [[34mINFO[39m]: Tue, 08 Mar 2022 10:05:54 GMT - GET /api/submissions?limit=30 200 7.628 ms -
+2022-03-08T10:43:03.609Z [[34mINFO[39m]: Tue, 08 Mar 2022 10:43:03 GMT - GET /api/submissions?limit=30 200 14.528 ms -
+2022-03-08T10:43:46.002Z [[34mINFO[39m]: Tue, 08 Mar 2022 10:43:46 GMT - GET /api/submissions?limit=30 304 7.567 ms -
+2022-03-08T10:45:32.794Z [[34mINFO[39m]: Tue, 08 Mar 2022 10:45:32 GMT - GET /api/submissions?limit=30 304 9.841 ms -
+2022-03-08T11:18:09.599Z [[34mINFO[39m]: Tue, 08 Mar 2022 11:18:09 GMT - GET /api/submissions?limit=30 304 8.239 ms -
+2022-03-08T11:29:19.030Z [[34mINFO[39m]: Tue, 08 Mar 2022 11:29:19 GMT - GET /api/submissions?limit=30 200 8.422 ms -
+2022-03-08T11:32:17.535Z [[34mINFO[39m]: Tue, 08 Mar 2022 11:32:17 GMT - GET /api/submissions?limit=30 304 11.952 ms -
+2022-03-08T11:57:06.232Z [[34mINFO[39m]: Tue, 08 Mar 2022 11:57:06 GMT - POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 0.830 ms 
+                                 [35m<?: [39mmd5("phpunit")?>
+2022-03-08T13:32:28.468Z [[34mINFO[39m]: Tue, 08 Mar 2022 13:32:28 GMT - GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 2.930 ms -
+2022-03-08T14:12:08.243Z [[34mINFO[39m]: Tue, 08 Mar 2022 14:12:08 GMT - GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 404 0.612 ms -
+2022-03-08T16:37:40.593Z [[34mINFO[39m]: Tue, 08 Mar 2022 16:37:40 GMT - GET /actuator/health 404 1.236 ms -
+2022-03-08T16:48:55.526Z [[34mINFO[39m]: Tue, 08 Mar 2022 16:48:55 GMT - GET /sitemap.xml 404 0.891 ms -
+2022-03-08T17:34:42.594Z [[34mINFO[39m]: Tue, 08 Mar 2022 17:34:42 GMT - POST /Autodiscover/Autodiscover.xml 404 1.493 ms -
+2022-03-08T20:48:33.768Z [[34mINFO[39m]: Tue, 08 Mar 2022 20:48:33 GMT - POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh 404 0.560 ms 
+                                 [35mA: [39m|echo;echo -n SROqaFskjR|md5sum
+2022-03-09T01:44:20.193Z [[34mINFO[39m]: Wed, 09 Mar 2022 01:44:20 GMT - GET /api/submissions?limit=30 304 11.264 ms -
+2022-03-09T01:46:35.297Z [[34mINFO[39m]: Wed, 09 Mar 2022 01:46:35 GMT - GET /api/submissions?limit=30 304 7.939 ms -
+2022-03-09T01:46:36.956Z [[34mINFO[39m]: Wed, 09 Mar 2022 01:46:36 GMT - GET /api/submissions?limit=30 304 4.501 ms -
+2022-03-09T01:51:10.794Z [[34mINFO[39m]: Wed, 09 Mar 2022 01:51:10 GMT - GET /api/submissions?limit=30 304 9.432 ms -
+2022-03-09T01:52:51.549Z [[34mINFO[39m]: Wed, 09 Mar 2022 01:52:51 GMT - GET /api/submissions?limit=30 304 7.932 ms -
+2022-03-09T01:54:02.335Z [[34mINFO[39m]: Wed, 09 Mar 2022 01:54:02 GMT - GET /api/submissions?limit=30 304 11.097 ms -
+2022-03-09T03:44:19.042Z [[34mINFO[39m]: Wed, 09 Mar 2022 03:44:19 GMT - GET /login 404 1.290 ms -
+2022-03-09T06:31:18.440Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:31:18 GMT - GET /api/submissions?limit=30 304 8.265 ms -
+2022-03-09T06:36:43.865Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:36:43 GMT - GET / 404 0.857 ms -
+2022-03-09T06:36:45.892Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:36:45 GMT - GET / 404 1.643 ms -
+2022-03-09T06:36:46.677Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:36:46 GMT - GET / 404 1.173 ms -
+2022-03-09T06:37:33.494Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:37:33 GMT - GET /api/submissions?limit=30 304 8.198 ms -
+2022-03-09T06:37:38.356Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:37:38 GMT - GET /api/submissions?limit=30 304 9.062 ms -
+2022-03-09T06:37:39.797Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:37:39 GMT - GET /api/submissions?limit=30 304 4.354 ms -
+2022-03-09T06:45:01.457Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:45:01 GMT - GET /api/submissions?limit=30 304 19.922 ms -
+2022-03-09T06:54:18.629Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:54:18 GMT - GET /api/submissions?limit=30 304 9.104 ms -
+2022-03-09T06:56:30.122Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:56:30 GMT - GET /api/submissions?limit=30 304 13.579 ms -
+2022-03-09T06:56:31.998Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:56:31 GMT - GET /api/submissions?limit=30 304 4.062 ms -
+2022-03-09T06:59:47.332Z [[34mINFO[39m]: Wed, 09 Mar 2022 06:59:47 GMT - GET /api/submissions?limit=30 304 11.250 ms -
+2022-03-09T07:10:26.204Z [[34mINFO[39m]: Wed, 09 Mar 2022 07:10:26 GMT - GET / 404 0.895 ms -
+2022-03-09T07:11:03.107Z [[34mINFO[39m]: Wed, 09 Mar 2022 07:11:03 GMT - GET / 404 1.022 ms -
+2022-03-09T07:11:04.106Z [[34mINFO[39m]: Wed, 09 Mar 2022 07:11:04 GMT - GET / 404 0.505 ms -
+2022-03-09T07:11:04.900Z [[34mINFO[39m]: Wed, 09 Mar 2022 07:11:04 GMT - GET / 404 0.493 ms -
+2022-03-09T07:11:05.527Z [[34mINFO[39m]: Wed, 09 Mar 2022 07:11:05 GMT - GET / 404 0.590 ms -
+2022-03-09T07:12:33.926Z [[34mINFO[39m]: Wed, 09 Mar 2022 07:12:33 GMT - GET /api/submissions?limit=30 304 8.470 ms -
+2022-03-09T08:15:14.217Z [[34mINFO[39m]: Wed, 09 Mar 2022 08:15:14 GMT - GET /api/submissions?limit=30 304 6.831 ms -
+2022-03-09T08:15:18.762Z [[34mINFO[39m]: Wed, 09 Mar 2022 08:15:18 GMT - GET /api/submissions?limit=30 304 4.892 ms -
+2022-03-09T08:20:37.328Z [[34mINFO[39m]: Wed, 09 Mar 2022 08:20:37 GMT - GET /api/submissions?limit=30 200 14.315 ms -
+2022-03-09T08:20:40.007Z [[34mINFO[39m]: Wed, 09 Mar 2022 08:20:40 GMT - GET /api/submissions?limit=30 304 20.856 ms -
+2022-03-09T08:38:16.197Z [[34mINFO[39m]: Wed, 09 Mar 2022 08:38:16 GMT - GET /api/submissions?limit=30 200 11.150 ms -
+2022-03-09T09:15:31.714Z [[34mINFO[39m]: Wed, 09 Mar 2022 09:15:31 GMT - GET /api/submissions?limit=30 200 11.235 ms -
+2022-03-09T09:36:32.010Z [[34mINFO[39m]: Wed, 09 Mar 2022 09:36:32 GMT - GET /api/submissions?limit=30 200 9.651 ms -
+2022-03-09T09:36:40.581Z [[34mINFO[39m]: Wed, 09 Mar 2022 09:36:40 GMT - GET /api/submissions?limit=30 304 5.885 ms -

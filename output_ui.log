@@ -1,0 +1,357 @@
+yarn run v1.22.17
+warning ../../../package.json: No license field
+$ react-scripts start
+(node:1045) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1045) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+asset static/js/bundle.js 6.58 MiB [emitted] (name: main) 1 related asset
+asset index.html 1.59 KiB [emitted]
+asset asset-manifest.json 190 bytes [emitted]
+orphan modules 2.48 MiB [orphan] 1883 modules
+runtime modules 28.3 KiB 14 modules
+cacheable modules 5.68 MiB
+  modules by path ./node_modules/ 5.64 MiB 694 modules
+  modules by path ./src/ 38.2 KiB
+    modules by path ./src/*.js 30.9 KiB
+      ./src/index.js 1.73 KiB [built] [code generated]
+      ./src/App.js 4.63 KiB [built] [code generated]
+      + 6 modules
+    modules by path ./src/*.css 4.15 KiB
+      ./src/index.css 2.72 KiB [built] [code generated]
+      ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css 1.43 KiB [built] [code generated]
+    ./src/api/index.js 1.21 KiB [built] [code generated]
+    ./src/styles/index.js 1.87 KiB [built] [code generated]
+  data:image/svg+xml;base64,PHN2ZyB3aWR0aD0i.. 658 bytes [built] [code generated]
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64 61:4-74:5
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64 61:4-74:5
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64 61:4-74:5
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64 61:4-74:5
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+4 warnings have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.68.0 compiled with 4 warnings in 24489 ms
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by chunk 6.58 MiB (name: main)
+  asset static/js/bundle.js 6.58 MiB [emitted] (name: main) 1 related asset
+  asset main.bb220b0038899b88c7f1.hot-update.js 365 bytes [emitted] [immutable] [hmr] (name: main) 1 related asset
+assets by path *.json 343 bytes
+  asset asset-manifest.json 315 bytes [emitted]
+  asset main.bb220b0038899b88c7f1.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+asset index.html 1.59 KiB [emitted]
+Entrypoint main 6.58 MiB (6.4 MiB) = static/js/bundle.js 6.58 MiB main.bb220b0038899b88c7f1.hot-update.js 365 bytes 2 auxiliary assets
+cached modules 8.16 MiB [cached] 2590 modules
+runtime modules 28.3 KiB 14 modules
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+4 warnings have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.68.0 compiled with 4 warnings in 2420 ms
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by chunk 6.58 MiB (name: main)
+  asset static/js/bundle.js 6.58 MiB [emitted] (name: main) 1 related asset
+  asset main.469ae028ddfec3cfa154.hot-update.js 2.49 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+assets by path *.json 343 bytes
+  asset asset-manifest.json 315 bytes [emitted]
+  asset main.469ae028ddfec3cfa154.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+asset index.html 1.59 KiB [emitted]
+Entrypoint main 6.58 MiB (6.4 MiB) = static/js/bundle.js 6.58 MiB main.469ae028ddfec3cfa154.hot-update.js 2.49 KiB 2 auxiliary assets
+cached modules 8.16 MiB [cached] 2589 modules
+runtime modules 28.3 KiB 14 modules
+./src/api/index.js 1.21 KiB [built] [code generated]
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+4 warnings have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.68.0 compiled with 4 warnings in 2316 ms
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by chunk 6.58 MiB (name: main)
+  asset static/js/bundle.js 6.58 MiB [emitted] (name: main) 1 related asset
+  asset main.b985905eb8ffe76fb507.hot-update.js 365 bytes [emitted] [immutable] [hmr] (name: main) 1 related asset
+assets by path *.json 343 bytes
+  asset asset-manifest.json 315 bytes [emitted]
+  asset main.b985905eb8ffe76fb507.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+asset index.html 1.59 KiB [emitted]
+Entrypoint main 6.58 MiB (6.4 MiB) = static/js/bundle.js 6.58 MiB main.b985905eb8ffe76fb507.hot-update.js 365 bytes 2 auxiliary assets
+cached modules 8.16 MiB [cached] 2590 modules
+runtime modules 28.3 KiB 14 modules
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+4 warnings have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.68.0 compiled with 4 warnings in 1348 ms
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by chunk 6.58 MiB (name: main)
+  asset static/js/bundle.js 6.58 MiB [emitted] (name: main) 1 related asset
+  asset main.ce86fecbdfa18e38ea38.hot-update.js 365 bytes [emitted] [immutable] [hmr] (name: main) 1 related asset
+assets by path *.json 343 bytes
+  asset asset-manifest.json 315 bytes [emitted]
+  asset main.ce86fecbdfa18e38ea38.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+asset index.html 1.59 KiB [emitted]
+Entrypoint main 6.58 MiB (6.4 MiB) = static/js/bundle.js 6.58 MiB main.ce86fecbdfa18e38ea38.hot-update.js 365 bytes 2 auxiliary assets
+cached modules 8.16 MiB [cached] 2589 modules
+runtime modules 28.3 KiB 14 modules
+./src/api/index.js 1.21 KiB [built]
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+4 warnings have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.68.0 compiled with 4 warnings in 1034 ms
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 393 bytes [cached] 2 assets
+assets by status 6.58 MiB [emitted]
+  asset static/js/bundle.js 6.58 MiB [emitted] (name: main) 1 related asset
+  asset index.html 1.59 KiB [emitted]
+  asset asset-manifest.json 315 bytes [emitted]
+Entrypoint main 6.58 MiB (6.4 MiB) = static/js/bundle.js 6.58 MiB main.b985905eb8ffe76fb507.hot-update.js 365 bytes 2 auxiliary assets
+cached modules 8.16 MiB [cached] 2590 modules
+runtime modules 28.3 KiB 14 modules
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/config-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/icon/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/locale-provider/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+WARNING in ./node_modules/antd/dist/antd.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/antd/dist/antd.css)
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map: 'webpack://antd/./components/time-picker/style/index.less' URL is not supported
+ @ ./node_modules/antd/dist/antd.css 8:6-231 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 61:4-74:5 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-201 83:0-201 84:22-29 84:33-47 84:50-64
+ @ ./src/App.js 7:0-28
+ @ ./src/index.js 6:0-24 10:33-36
+
+4 warnings have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.68.0 compiled with 4 warnings in 1940 ms
